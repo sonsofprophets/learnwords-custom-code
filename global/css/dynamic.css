@@ -1,0 +1,66 @@
+/** Topbar Nagivation **/
+section.lw-topbar {
+  height: 0!important;
+  background-color: transparent!important;
+}
+section.lw-topbar.lw-body-bg {
+  background-color: transparent!important;
+}
+section.lw-topbar .learnworlds-button-solid-brand,
+section.lw-footer .lw-social-button {
+  background-color: transparent!important; 
+}
+section.lw-topbar .lw-topbar-hamburger-button {
+  right: 25px!important;
+  top: 40px!important;
+}
+section.lw-topbar .lw-topbar-hamburger-button:after {
+  background-color: #fff!important;
+  height: 2px!important;
+}
+section.lw-topbar .lw-topbar-hamburger-button:before {
+  background-color: #fff!important;
+  box-shadow: 0 24px 0 0 #fff!important;
+  height: 2px!important;
+}
+section.lw-topbar .hamburger-open .lw-topbar-hamburger-button:before {
+  box-shadow: 0 0 0 0 #fff!important;
+}
+section.lw-topbar .hamburger-open .lw-topbar-hamburger-menu {
+  background-color: rgba(4, 4, 26, 1);
+}
+.mobile-nav-menu-item .mobile-nav-menu-link {
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 10px; 
+}
+
+/** Funraise Give Form **/
+@media only screen and (min-width: 450px) {
+  #fr-button { display: none };
+}
+@media only screen and (max-width: 450px) {
+  #fr-giving-form { display: none };
+}
+#fr-button {
+ padding: 20px 30px;
+ cursor: pointer;
+ background: #fff;
+ font-weight: bold;
+}
+#fr-giving-form {
+  width: 420px;
+  height: 546px;
+  margin: auto;
+  max-width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  background-image: url(https://lwfiles.mycourse.app/63fd96c00631bf046048aedc-public/1b705b0e6bd4297f707e85e527be5952.png);
+  background-size: contain;
+}
+
+/** Juicer social media feed **/
+.juicer-feed h1.referral,
+.feed-item.juicer {
+  display: none!important;
+}
