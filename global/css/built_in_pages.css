@@ -1,0 +1,72 @@
+#socialWrapper {
+  background-color: #e1e1e1;
+}
+
+#neighborhood {
+  background-color: rbga(255, 255, 255, 0.1)!important;
+}
+#neighborhood -neighborhood-name {
+  font-weight: bold;
+}
+
+#firstCol {
+  border-width: 0;
+}
+#firstCol > * {
+  border-width: 0;
+  border-radius: 7px;
+}
+#postForm .lw-b-1px-fadeout90 {
+  border-width: 0; 
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+}
+
+.foll-icon {
+  background-image: url(https://assets.sonsofprophets.app/user-group.svg)!important;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: center;
+}
+.foll a.foll-link {
+  color: #58595b!important;
+}
+
+ul.choices li.choice {
+  margin: 4px 0;
+  padding: 2px 4px;
+  font-weight: bold!important;
+}
+ul.choices li.choice.active {
+
+}
+/**
+ul.choices li.choice.active .choice-name {
+  color: #fff!important;
+  background-color: #8E7600;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+**/
+
+ul.choices li.choice .choice-icon {
+  opacity: 0.7;
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+}
+ul.choices li.choice.active .choice-icon {
+  background-color: transparent!important;
+}
+ul.choices li.choice .choice-icon.activity-list {
+  background-image: url(https://assets.sonsofprophets.app/wave-pulse.svg)!important;
+}
+ul.choices li.choice .choice-icon.friends-activity-list {
+  background-image: url(https://assets.sonsofprophets.app/users.svg)!important;
+}
+ul.choices li.choice .choice-icon.polls-list {
+  background-image: url(https://assets.sonsofprophets.app/bars-progress.svg)!important;
+}
+ul.choices li.choice .choice-icon.mention-list {
+  background-image: url(https://assets.sonsofprophets.app/at.svg)!important;
+}
