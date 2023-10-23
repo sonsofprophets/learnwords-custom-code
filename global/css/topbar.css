@@ -1,0 +1,36 @@
+/** Topbar Nagivation **/
+section.lw-topbar {
+  height: 0!important;
+  background-color: transparent!important;
+}
+section.lw-topbar.lw-body-bg {
+  background-color: transparent!important;
+}
+section.lw-topbar .learnworlds-button-solid-brand,
+section.lw-footer .lw-social-button {
+  background-color: transparent!important; 
+}
+section.lw-topbar .lw-topbar-hamburger-button {
+  right: 25px!important;
+  top: 40px!important;
+}
+section.lw-topbar .lw-topbar-hamburger-button:after {
+  background-color: #fff!important;
+  height: 2px!important;
+}
+section.lw-topbar .lw-topbar-hamburger-button:before {
+  background-color: #fff!important;
+  box-shadow: 0 24px 0 0 #fff!important;
+  height: 2px!important;
+}
+section.lw-topbar .hamburger-open .lw-topbar-hamburger-button:before {
+  box-shadow: 0 0 0 0 #fff!important;
+}
+section.lw-topbar .hamburger-open .lw-topbar-hamburger-menu {
+  background-color: rgba(4, 4, 26, 1);
+}
+.mobile-nav-menu-item .mobile-nav-menu-link {
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 10px; 
+}
